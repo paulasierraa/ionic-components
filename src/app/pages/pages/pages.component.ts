@@ -42,6 +42,16 @@ export class PagesComponent implements OnInit {
       icon: 'checkmark-circle-outline',
       name: 'Checks',
       redirectTo: '/checkbox'
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'Datetime',
+      redirectTo: '/date-time'
+    },
+    {
+      icon: 'car-outline',
+      name: 'Fab',
+      redirectTo: '/fab'
     }
   ]
   constructor() { }
